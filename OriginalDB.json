@@ -1,0 +1,55 @@
+{
+    "urls": {
+        "url_oc": "https://www.nseindia.com/option-chain",
+        "url_indices": "https://www.nseindia.com/api/allIndices",
+        "url_oi": "https://www.nseindia.com/api/option-chain-indices?symbol=",
+        "url_si": "https://www.nseindia.com/api/equity-stockIndices?index=",
+        "equity_url": "https://www.nseindia.com/api/equity-stockIndices?index="
+    },
+    "symbols": {
+        "NIFTY": {
+            "OI": "NIFTY",
+            "SI": "NIFTY%2050",
+            "STEP": 50
+        },
+        "BANK": {
+            "OI": "BANKNIFTY",
+            "SI": "NIFTY%20BANK",
+            "STEP": 100
+        },
+        "FIN": {
+            "OI": "FINNIFTY",
+            "SI": "NIFTY%20FINANCIAL SERVICES",
+            "STEP": 50
+        }
+    },
+    "dispMsg": "",
+    "thisProps": {
+        "NIFTY": {
+            "dayOpen": 0,
+            "advances": 0,
+            "declines": 0,
+            "unchanged": 0,
+            "time-series": {
+                "dayCurrent": [],
+                "dayHigh": [],
+                "dayLow": [],
+                "pChange": [],
+                "OI" : []
+            }
+        },
+        "BANK": {
+            "dayOpen": 0,
+            "advances": 0,
+            "declines": 0,
+            "unchanged": 0,
+            "time-series": {
+                "dayCurrent": [],
+                "dayHigh": [],
+                "dayLow": [],
+                "pChange": [],
+                "OI" : []
+            }
+        }
+    }
+}

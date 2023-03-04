@@ -1,0 +1,142 @@
+{
+    "urls": {
+        "url_oc": "https://www.nseindia.com/option-chain",
+        "url_indices": "https://www.nseindia.com/api/allIndices",
+        "url_oi": "https://www.nseindia.com/api/option-chain-indices?symbol=",
+        "url_si": "https://www.nseindia.com/api/equity-stockIndices?index=",
+        "equity_url": "https://www.nseindia.com/api/equity-stockIndices?index="
+    },
+    "symbols": {
+        "NIFTY": {
+            "OI": "NIFTY",
+            "SI": "NIFTY%2050",
+            "STEP": 50
+        },
+        "BANK": {
+            "OI": "BANKNIFTY",
+            "SI": "NIFTY%20BANK",
+            "STEP": 100
+        },
+        "FIN": {
+            "OI": "FINNIFTY",
+            "SI": "NIFTY%20FINANCIAL SERVICES",
+            "STEP": 50
+        }
+    },
+    "thisProps": {
+        "NIFTY": {
+            "dayOpen": 17421.5,
+            "advances": "14",
+            "declines": "36",
+            "unchanged": "0",
+            "time-series": {
+                "dayCurrent": [
+                    17465.8,
+                    17465.8,
+                    17465.8,
+                    17465.8,
+                    17465.8,
+                    17465.8,
+                    17465.8,
+                    17465.8,
+                    17465.8,
+                    17321.9
+                ],
+                "dayHigh": [
+                    17599.75,
+                    17599.75,
+                    17599.75,
+                    17599.75,
+                    17599.75,
+                    17599.75,
+                    17599.75,
+                    17599.75,
+                    17599.75,
+                    17445.8
+                ],
+                "dayLow": [
+                    17421.8,
+                    17421.8,
+                    17421.8,
+                    17421.8,
+                    17421.8,
+                    17421.8,
+                    17421.8,
+                    17421.8,
+                    17421.8,
+                    17306
+                ],
+                "pChange": [
+                    -0.26,
+                    -0.26,
+                    -0.26,
+                    -0.26,
+                    -0.26,
+                    -0.26,
+                    -0.26,
+                    -0.26,
+                    -0.26,
+                    -0.74
+                ],
+                "OI": []
+            }
+        },
+        "BANK": {
+            "dayOpen": 40604.55,
+            "advances": "0",
+            "declines": "12",
+            "unchanged": "0",
+            "time-series": {
+                "dayCurrent": [
+                    39909.4,
+                    39909.4,
+                    39909.4,
+                    39909.4,
+                    39909.4,
+                    39909.4,
+                    39909.4,
+                    39909.4,
+                    39909.4,
+                    40389.8
+                ],
+                "dayHigh": [
+                    40348.1,
+                    40348.1,
+                    40348.1,
+                    40348.1,
+                    40348.1,
+                    40348.1,
+                    40348.1,
+                    40348.1,
+                    40348.1,
+                    40773.25
+                ],
+                "dayLow": [
+                    39818.9,
+                    39818.9,
+                    39818.9,
+                    39818.9,
+                    39818.9,
+                    39818.9,
+                    39818.9,
+                    39818.9,
+                    39818.9,
+                    40312.9
+                ],
+                "pChange": [
+                    -0.23,
+                    -0.23,
+                    -0.23,
+                    -0.23,
+                    -0.23,
+                    -0.23,
+                    -0.23,
+                    -0.23,
+                    -0.23,
+                    -0.76
+                ],
+                "OI": []
+            }
+        }
+    }
+}
